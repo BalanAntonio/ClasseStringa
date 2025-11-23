@@ -1,4 +1,5 @@
 #include "stringa.h"
+#include <iostream>
 
 int main()
 {
@@ -9,5 +10,5 @@ int main()
     test2.Flip();
     test1 << test2;
     
-    test1.Stampa();
+    std::cout<< test1.Stampa();
 }

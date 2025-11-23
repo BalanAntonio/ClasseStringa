@@ -1,4 +1,3 @@
-#include <iostream>
 #include "stringa.h"
 
 stringa::stringa() {
@@ -26,8 +25,8 @@ stringa::~stringa() {
 	delete[] s;
 }
 
-void stringa::Stampa() {
-	std::cout << s;
+char* stringa::Stampa() {
+	return s;
 }
 
 void stringa::Reverse() {

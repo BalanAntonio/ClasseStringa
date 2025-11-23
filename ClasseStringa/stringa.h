@@ -16,7 +16,7 @@ public:
 	stringa(const char* s2);
 	~stringa();
 
-	void Stampa();
+	char* Stampa();
 	void Reverse();
 	void Flip();
 	int  Palindroma();
