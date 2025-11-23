@@ -123,8 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ClasseStringa.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="stringa.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stringa.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
