@@ -1,6 +1,7 @@
-#include <iostream>
+#include "stringa.cpp"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    stringa test = "Stringa test";
+    test.Stampa();
 }

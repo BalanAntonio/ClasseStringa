@@ -59,7 +59,7 @@ void stringa::Reverse() {
 	for (int i = 0; i < lunghezza/2; i++) {
 		char temp = s[i];
 		s[i] = s[lunghezza - i - 1];
-		s[lunghezza - i - 1] = s[i];
+		s[lunghezza - i - 1] = temp;
 	}
 }
 
