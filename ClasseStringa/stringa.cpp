@@ -38,6 +38,13 @@ void stringa::Reverse() {
 	}
 }
 
+void stringa::Flip() {
+	for (int i = 0; i < lunghezza; i++) {
+		if (s[i] <= 90 && s[i]>=65) { s[i] += 32; }
+		else if(s[i] <= 122 && s[i] >= 97) { s[i] -= 32; }
+	}
+}
+
 int stringa::Palindroma() {
 	char* inizio = s;
 	char* fine = s + lunghezza-1;

@@ -18,6 +18,7 @@ public:
 
 	void Stampa();
 	void Reverse();
+	void Flip();
 	int  Palindroma();
 	virtual int getLunghezza();
 
